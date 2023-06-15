@@ -1,6 +1,8 @@
 # Apache-DNS-Proxy-Servers
 
 ## Setting up Apache Server:
+![image](https://github.com/ArielElb/Apache-DNS-Proxy-Servers/assets/94087682/03e092cb-3aa2-4898-9d04-c512a8f6d9cd)
+
 
 1. Install Apache by running the following command:
 2. Once the installation is complete, open a browser and enter the IP address (127.0.0.1 or localhost) in the address bar. You should see the deployment home page.
@@ -28,6 +30,7 @@
 - ethtool -K [interface] tx off sg off tso off
 
 ##  Configuring DNS Server:
+![image](https://github.com/ArielElb/Apache-DNS-Proxy-Servers/assets/94087682/660f5a6b-ba59-4e7b-b61c-e485b5802fdf)
 
 1. Install DNS server (bind9): sudo apt install bind9
 
@@ -54,6 +57,8 @@
 5. Restart DNS server: sudo systemctl restart bind9.service
 
 ## Installing Squid Proxy Server:
+![image](https://github.com/ArielElb/Apache-DNS-Proxy-Servers/assets/94087682/bc17ef55-3faf-4cd0-977a-c2d6a22728bb)
+
 
 1. Install Squid proxy server: sudo apt install squid
 2. Start squid server: sudo service squid start
